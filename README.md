@@ -5,3 +5,4 @@ This is just a basic quote app that I developed so I could practice connecting t
 Problems ran into while coding:
 * correct spacing between the text elements and centering the quote text
 
+Video Demo: https://imgur.com/a/13EZnn0
