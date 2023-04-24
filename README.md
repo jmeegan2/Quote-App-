@@ -1,8 +1,21 @@
-#  Quote App
+# AdviceAPI
+AdviceAPI is a simple iOS app that displays a random piece of advice on the screen, sourced from the Advice Slip API.
 
-This is just a basic quote app that I developed so I could practice connecting to APIs with Swift, Nothing really too intense took me about an hour to make. Used this for reference on connecting to APIs with swift https://levelup.gitconnected.com/swift-making-an-api-call-and-fetching-json-acd364c77a71 and just looked at the SwiftUI documentation for view problems. 
+# Getting Started
+To run the app, follow these steps:
 
-Problems ran into while coding:
-* correct spacing between the text elements and centering the quote text
+1. Clone the repository.
+2. Open AdviceAPI.xcodeproj in Xcode.
+3. Build and run the app.
 
-Video Demo: https://imgur.com/a/13EZnn0
+# Usage
+When the app is launched, a random piece of advice will be displayed on the screen. To get a new piece of advice, tap the "Refresh" button.
+
+# Technical Details
+The app is built using SwiftUI and fetches data from the Advice Slip API using URLSession and JSONDecoder. The app's UI consists of a blue background with a red "Advice of the Day" heading, a text view displaying the advice, and a "Refresh" button to get new advice.
+
+# Contributing
+This project is open for contributions. If you find a bug or have an idea for a new feature, feel free to submit a pull request.
+
+# License
+AdviceAPI is licensed under the MIT License.
